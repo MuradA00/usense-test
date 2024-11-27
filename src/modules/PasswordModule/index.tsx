@@ -1,9 +1,9 @@
-import { Input } from "../../Input";
+import { Input } from "../../components/Input";
 import { motion } from "framer-motion";
 import { StrengthIndicator } from "./StrengthIndicator";
 import { passwordBoxMotionProps } from "../constants";
 import { Heading } from "./Heading";
-import { usePasswordStrength } from "../../../hooks/usePasswordStrength";
+import { usePasswordStrength } from "../../hooks/usePasswordStrength";
 
 export const PasswordModule = () => {
   const {
@@ -13,7 +13,7 @@ export const PasswordModule = () => {
   } = usePasswordStrength();
 
   return (
-    <div className="min-h-[100dvh] flex items-center justify-center bg-[#E3F2FD] p-4">
+    <div className="min-h-[100dvh] flex items-center justify-center bg-body p-4">
       <motion.div 
         {...passwordBoxMotionProps}
         className="bg-white gap-6 w-full max-w-[500px] rounded-xl px-6 py-8 flex flex-col justify-between shadow-xl"

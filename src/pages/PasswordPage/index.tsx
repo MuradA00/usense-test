@@ -1,4 +1,4 @@
-import { PasswordModule } from "../../components/modules/PasswordModule"
+import { PasswordModule } from "../../modules/PasswordModule"
 
 export const PasswordPage = () => {
   return <PasswordModule />

@@ -4,7 +4,7 @@ import {
   useEffect, 
   useState 
 } from "react"
-import { PasswordStrengthType } from "../components/modules/types";
+import { PasswordStrengthType } from "../modules/types";
 
 export const usePasswordStrength = () => {
   const [inputValue, setInputValue] = useState("");
