@@ -13,7 +13,7 @@ export const PasswordModule = () => {
   } = usePasswordStrength();
 
   return (
-    <div className="min-h-[100dvh] flex items-center justify-center bg-body p-4">
+    <div className="min-h-[100dvh] flex items-center justify-center bg-[#E3F2FD] p-4">
       <motion.div 
         {...passwordBoxMotionProps}
         className="bg-white gap-6 w-full max-w-[500px] rounded-xl px-6 py-8 flex flex-col justify-between shadow-xl"
